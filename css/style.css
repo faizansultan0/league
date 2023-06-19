@@ -370,6 +370,7 @@
     background: url("../images/transfer-bg-ellipse-1.png");
     background-repeat: no-repeat;
     background-position: -326px 49px;
+    padding-bottom: 30px;
 }
 
 /* Latest Table Styling */
@@ -384,6 +385,7 @@
 .table-heading {
     font-size: 18px;
     font-weight: 800;
+    margin-bottom: 0;
 }
 
 .latest-table .tr {
@@ -511,8 +513,207 @@
     font-weight: 500;
 }
 
+/* Players Cards Styling */
+.player-card {
+    border-radius: 8px;
+    padding: 16px;
+    padding-bottom: 0;
+}
+
+.player-card-1 {
+    background: url('../images/player-card-1-circle-bottom.png') bottom left no-repeat,
+                url('../images/player-card-1-circle-mid.png') top right no-repeat,
+                url('../images/player-card-1-circle-top.png') top right no-repeat,
+                url('../images/player-card-1-right-shade.png') top right no-repeat,
+                #8B42F2;
+}
+
+.player-card .pc-tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-card .arrow-buttons {
+    display: flex;
+    gap: 6px;
+}
+
+.player-card .arrow-button {
+    border: none;
+    border-radius: 50%;
+    color: white;
+    background-color:  rgba(255, 255, 255, 0.1);
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+}
+
+.player-card .arrow-button:hover {
+    background-color: rgba(255, 255, 255, 0.281);
+}
+
+.player-card-1 .left-img-div {
+    padding-top: 17px;
+}
+
+.player-card .right-logo {
+    width: 26.13px;
+}
+
+.player-card .player-card-name {
+    font-weight: 700;
+    color: white;
+    font-size: 32px;
+    line-height: 40.32px;
+    margin-bottom: 4px;
+}
+
+.player-card .player-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 14px;
+    gap: 12px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.player-card .circle {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    opacity: 0.2;
+}
+
+.player-card .country-img {
+    width: 20px;
+}
+
+.player-card .p-bottom-cards {
+    display: flex;
+    gap: 16px;
+}
+
+.player-card .p-bottom-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    min-width: 126px;
+}
+
+.player-card .bold-text {
+    font-weight: 700;
+    font-size: 24px;
+    display: block;
+}
+
+.player-card .light-text {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+}
+
+.player-card-2 {
+    padding-top: 0;
+    padding-left: 0;
+    background: url('../images/player-card-2-circle-mid.png') top right no-repeat,
+    url('../images/player-card-2-circle-top.png') top right no-repeat,
+    linear-gradient(90deg, #8B42F2 0%, #D7503D 100%);
+}
+
+.player-card-2 .left-img-div {
+    padding-top: 9px;
+}
+
+.player-card-2 .right-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.player-card-2 .player-card-name {
+    margin-bottom: 18px;
+}
+
+.player-card-2 .para {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: white;
+    margin-bottom: 18px;
+}
+
+.player-card .single-card {
+    display: inline-flex;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 6.5px 20px;
+    border-radius: 999px;
+    width: fit-content;
+}
+
+.player-card-2 .right-card-img-div {
+    width: 26.71px;
+}
+
+.player-card-2 .bold-text {
+    font-size: 18px;
+    line-height: 22.68px;
+    display: block;
+    text-align: center;
+}
+
+.player-card-2 .light-text {
+    font-size: 12px;
+    line-height: 15.12px;
+    display: block;
+    text-align: center;
+}
+
+/* Enjoying Card Styling */
+.enjoying-card {
+    padding: 45px 52px 40px;
+    background:url('../images/enjoying-bg-shade.png') top left no-repeat,
+    url('../images/enjoying-bg-img.png') left top / cover no-repeat;
+    color: white;
+    border-radius: 8px;
+}
+
+.enjoying-card .enjoying-heading {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.enjoying-card .para {
+    font-size: 16px;
+    line-height: 20.16px;
+    margin-bottom: 25px;
+}
+
+.enjoying-card .link {
+    text-decoration: none;
+    color: #56B694;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    background-color: white;
+    padding: 19px 34px;
+    border-radius: 8px;
+    display: inline-block;
+    /* border: 4px solid rgba(255, 255, 255, 0.2); */
+
+}
+
 /* Media Queries with Max-Width */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199.9px) {
     /* Header */
     .header .logo-img {
         width: 180px;
@@ -525,6 +726,34 @@
     /* Latest Table Styling */
     .latest-table .right-part {
         gap: 26px;
+    }
+
+    /* Players Cards Styling */
+    .player-card-1 .left-img-div {
+        padding-top: 11px;
+    }
+
+    .player-card .player-card-name {
+        font-size: 25px;
+        line-height: 29px;
+    }
+
+    .player-card .player-info{
+        margin-bottom: 8px;
+        font-size: 13px;
+    }
+
+    .player-card .bold-text {
+        font-size: 20px;
+    }
+
+    .player-card .p-bottom-card {
+        padding: 9px;
+        min-width: 110px;
+    }
+
+    .player-card-2 .left-img-div {
+        padding-top: 10px;
     }
 }
 
@@ -624,6 +853,15 @@
     .header .nav-link:hover, .header .active {
         border-bottom: 2px solid;
     }
+
+    /* Players Cards Styling */
+    .player-card-2 .left-img-div {
+        padding-top: 10px;
+    }
+
+    .player-card-2 .player-card-name {
+        margin-bottom: 12px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -687,6 +925,44 @@
     .latest-table .rpr-img {
         height: 36px;
     }
+
+    /* Players Cards Styling */
+    .player-card .right-logo {
+        width: 22px;
+    }
+
+    .player-card .player-card-name {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .player-card .p-bottom-card {
+        min-width: 106px;
+        padding: 8px;
+    }
+
+    .player-card .bold-text {
+        font-size: 18px;
+    }
+
+    .player-card-2 .para {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 12px;
+    }
+
+    .player-card .bold-text {
+        font-size: 16px;
+    }
+
+    /* Enjoying Card Styling */
+    .enjoying-card .para {
+        font-size: 15px;
+    }
+
+    .enjoying-card .link {
+        padding: 16px 30px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -728,6 +1004,75 @@
 
     .latest-table .rpr-name {
         font-size: 11px;
+    }
+
+    /* Players Cards Styling */
+    .player-card {
+        padding: 16px 10px 0;
+    }
+
+    .player-card-1 .left-img-div {
+        padding-top: 22px;
+    }
+
+    .player-card .player-card-name {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .player-card .right-logo {
+        width: 18px;
+    }
+
+    .player-card .player-info {
+        gap: 6px;
+        font-size: 12px;
+    }
+
+    .player-card .p-bottom-cards {
+        gap: 12px;
+    }
+
+    .player-card .p-bottom-card {
+        padding: 5px;
+        min-width: 80px;
+    }
+
+    .player-card .bold-text {
+        font-size: 14px;
+    }
+
+    .player-card .light-text {
+        font-size: 11px;
+    }
+
+    .player-card-2 .para {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .player-card .single-card {
+        gap: 14px;
+        padding: 4px 16px;
+    }
+
+    /* Enjoying Cards Styling */
+    .enjoying-card {
+        padding: 27px 26px 29px;
+    }
+
+    .enjoying-card .enjoying-heading {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .enjoying-card .para {
+        margin-bottom: 20px;
+    }
+
+    .enjoying-card .link {
+        font-size: 15px;
+        padding: 12px 25px;
     }
 }
 
@@ -808,6 +1153,73 @@
 
     .latest-table .rpr-img {
         height: 24px;
+    }
+
+    /* Players Cards Styling */
+    .player-card .player-card-name {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .player-card .col-5 {
+        padding: 0;
+    }
+
+    .player-card .col-6 {
+        padding: 0;
+    }
+
+    .player-card .player-info {
+        gap: 4px;
+        font-size: 7.5px;
+    }
+
+    .player-card .light-text {
+        font-size: 10px;
+    }
+
+    .player-card .p-bottom-cards {
+        gap: 4px;
+    }
+
+    .player-card .p-bottom-card {
+        padding: 4px;
+        min-width: 60px;
+    }
+
+    .player-card .light-text {
+        font-size: 8px;
+    }
+
+    .player-card-2 .player-card-name {
+        margin-bottom: 6px;
+    }
+
+    .player-card-2 .para {
+        margin-bottom: 8px;
+    }
+
+    .player-card .single-card {
+        gap: 8px;
+        padding: 3px 8px;
+    }
+
+    .player-card-2 .right-card-img-div {
+        width: 22px;
+    }
+
+    .player-card .bold-text {
+        font-size: 13px;
+    }
+
+    /* Enjoying Card Styling */
+    .enjoying-card .enjoying-heading {
+        font-size: 20px;
+    }
+
+    .enjoying-card .link {
+        font-size: 14px;
+        padding: 10px 22px;
     }
 }
 
