@@ -608,12 +608,12 @@
     align-items: center;
 }
 
-.player-card .arrow-buttons {
+.arrow-buttons {
     display: flex;
     gap: 6px;
 }
 
-.player-card .arrow-button {
+.arrow-button {
     border: none;
     border-radius: 50%;
     color: white;
@@ -623,7 +623,7 @@
     font-size: 11px;
 }
 
-.player-card .arrow-button:hover {
+.arrow-button:hover {
     background-color: rgba(255, 255, 255, 0.281);
 }
 
@@ -961,11 +961,13 @@
 }
 
 .fixtures-table .pagination-div {
-    background-color: #FAFAFA;
+    background-color: rgba(250, 250, 250, 0.8);
+    width: 1100px;
 }
 
 .fixtures-table .pagination-number-parent {
     padding-right: 4px;
+    width: 34px;
 }
 
 .fixtures-table .pagination-number {
@@ -979,6 +981,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 999px;
+}
+
+.fixtures-table .active {
+    color: #8B42F2;
+    border-color: #8B42F2;
 }
 
 
@@ -1197,8 +1204,229 @@
     gap: 32px;
 }
 
+/* Top Players */
+.tp-sm-card .lg-left-part {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-/* Footer Styling */
+.tp-sm-card .lg-icon-div {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tp-sm-card .table-heading {
+    line-height: 22.68px;
+}
+
+.tp-sm-card .lg-img-div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: #F7F8F9;
+    border-radius: 50%;
+}
+
+.tp-sm-card .lg-img {
+    border-radius: 50%;
+}
+
+.tp-sm-card .xi-card {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    display: flex;
+    justify-content: start;
+    gap: 6px;
+}
+
+.tp-sm-card .left-part {
+    min-width: unset;
+}
+
+.tp-sm-card .info-div {
+    min-width: unset;
+}
+
+.tp-sm-card .position-row {
+    min-width: unset;
+}
+
+.tp-sm-card .highest-scores {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.tp-sm-card-parent:nth-of-type(1) .highest-scores{
+    color: #56B694;
+}
+
+.tp-sm-card-parent:nth-of-type(2) .highest-scores{
+    color: #8B42F2;
+}
+
+.tp-sm-card-parent:nth-of-type(3) .highest-scores{
+    color: #E94183;
+}
+
+.tp-sm-card .scores {
+    font-size: 16px;
+    font-weight: 700;
+    min-width: 30px;
+}
+
+.tp-sm-card .see-all-row {
+    justify-content: center;
+}
+
+.tp-sm-card .see-all {
+    font-size: 14px;
+    color: #8B42F2;
+}
+
+.tp-sm-card .see-all:hover {
+    color: #57318c;
+}
+
+
+/* Last League Table */
+.last-league-table > tbody > .tr {
+    padding: 16px 16px 0;
+    border: 0;
+    min-width: 558px;
+}
+
+.last-league-table > tbody > .tr:last-child {
+    padding-bottom: 16px;
+}
+
+.last-league-table {
+    background: url('../images/last-league-bg-circle-1.png') top right no-repeat,
+                url('../images/last-league-bg-circle-2.png') top right no-repeat,
+                linear-gradient(to bottom, #8B42F2 0%, #974DDE 100%);
+}
+
+.last-league-table .top-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0;
+    width: 255px;
+    padding: 12px;
+    height: fit-content;
+}
+
+.last-league-table .top-card .tr {
+    margin-bottom: 0;
+    padding: 0;
+    padding-bottom: 13px;
+    border-bottom: 0;
+}
+
+.last-league-table .top-card .tr:last-child {
+    padding-bottom: 0;
+}
+
+.last-league-table .top-card .name {
+    font-size: 14px;
+}
+
+.last-league-table .top-card .brand-td .top-card-img {
+    width: 26.6px;
+}
+
+.last-league-table .top-card .link-td:hover .score-link::before {
+    background-color: white;
+}
+
+.last-league-table .top-card .time {
+    padding-right: 0;
+}
+
+.last-league-table .video {
+    border-radius: 6.3px;
+}
+
+/* Last League Table Person */
+.last-league-table .xi-img-div {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.last-league-table .xi-img-div img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.last-league-table .person-name {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.last-league-table .flags {
+    min-width: unset;
+}
+
+.last-league-table .points {
+    background-color: white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 18px;
+    color: #8B42F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Last League Table Cards */
+.last-league-table .plays-heading {
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.ll-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.ll-card {
+    min-width: 125.5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.ll-card .number {
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    color: white;
+}
+
+.ll-card .name {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+}
+
+
+/* Footer */
 .footer {
     color: #4D5F7A;
     padding: 40px 0;
