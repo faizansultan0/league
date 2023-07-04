@@ -143,6 +143,15 @@
     font-weight: 700;
 }
 
+.header .navbar #searchInput {
+    border: none;
+    border-bottom: 1px solid #57318c;
+}
+
+.header .navbar #searchInput:focus {
+    outline: none;
+}
+
 .header button {
     border: none;
     background-color: transparent;
