@@ -1554,7 +1554,7 @@
     }
 
     /* Last League Table Cards */
-    .last-league-table > .tr {
+    .last-league-table > .tr, .last-league-table .last-league-content > .tr  {
         min-width: 100%;
     }
 
