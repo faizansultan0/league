@@ -401,11 +401,16 @@
     padding: 18px 20px 16px;
 }
 
-.latest-table .tr:first-child, .tr:last-child {
+.latest-table > tbody > .tr:first-child, .latest-table .tr:last-child {
     border-bottom: none;
 }
 
-.latest-table .tr:first-child {
+.latest-table > .tr:first-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.latest-table > tbody > .tr:first-child {
     padding-bottom: 0;
     display: flex;
     justify-content: space-between;
@@ -432,16 +437,16 @@
     font-size: 14px;
     font-weight: 500;
     color: black;
+    border-radius: 999px;
 }
 
 .latest-table .btn:hover {
     color: #8B42F2;
 }
 
-.latest-table .active {
+.latest-table .round-btns-parent .active {
     color: #8B42F2;
     border: 1px solid #8B42F2;
-    border-radius: 999px;
     background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -911,10 +916,6 @@
 }
 
 /* Most Valuable Table Styling */
-.most-valuable-table .tr:first-child {
-    min-height: 56.28px;
-}
-
 .most-valuable-table .rpc {
     text-align: start;
 }
