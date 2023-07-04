@@ -1301,13 +1301,13 @@
 
 
 /* Last League Table */
-.last-league-table > tbody > .tr {
-    padding: 16px 16px 0;
+.last-league-table > .tr, .last-league-table .last-league-content > .tr {
+    padding: 17px 16px 0;
     border: 0;
     min-width: 558px;
 }
 
-.last-league-table > tbody > .tr:last-child {
+.last-league-table .last-league-content > .tr:last-child {
     padding-bottom: 16px;
 }
 
@@ -1554,7 +1554,7 @@
     }
 
     /* Last League Table Cards */
-    .last-league-table > tbody > .tr {
+    .last-league-table > .tr {
         min-width: 100%;
     }
 
