@@ -1815,7 +1815,7 @@
 
     /* Highest Value Table */
     .highest-value-table {
-        width: fit-content;
+        min-width: fit-content;
     }
 
     .highest-value-table .tr {
@@ -1834,7 +1834,7 @@
 
     /* Standing Tables */
     .standing-right-table {
-        width: fit-content;
+        min-width: fit-content;
     }
 
     .standing-right-table .tr {
