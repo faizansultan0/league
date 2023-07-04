@@ -1304,7 +1304,7 @@
 .last-league-table > .tr, .last-league-table .last-league-content > .tr {
     padding: 17px 16px 0;
     border: 0;
-    min-width: 558px;
+    width: 100%;
 }
 
 .last-league-table .last-league-content > .tr:last-child {
@@ -1554,9 +1554,10 @@
     }
 
     /* Last League Table Cards */
-    .last-league-table > .tr, .last-league-table .last-league-content > .tr  {
-        min-width: 100%;
-    }
+    /* .last-league-table > .tr, .last-league-table .last-league-content > .tr  {
+        min-width: unset;
+        width: 468px;
+    } */
 
     .last-league-table .top-card {
         width: 200px;
@@ -1644,6 +1645,15 @@
     .xi-table .tr:nth-child(6) {
         padding-left: 96.5px;
         padding-right: 121px;
+    }
+
+    /* Last League Table */
+    .last-league-table {
+        min-width: 468px;
+    }
+
+    .last-league-table > .tr, .last-league-table .last-league-content > .tr {
+        min-width: 468px;
     }
 }
 
