@@ -2852,479 +2852,953 @@
                                 <!-- Standings Card 2 -->
                                 <div class="col-xl-6">
                                     <div class="standing-right-content overflow-auto mb-3">
-                                        <table class="standing-right-table latest-table bg-light">
-                                            <tr class="tr">
-                                                <th class="table-heading">Top Players in Premier League</th>
-                                                <th class="round-btns-parent">
-                                                    <button class="active btn">Goal</button>
-                                                    <button class="btn">Assist</button>
-                                                </th>
-                                            </tr>
+                                        <div class="standing-right-table latest-table bg-light">
+                                            <div class="tr">
+                                                <h3 class="table-heading">Top Players in Premier League</h3>
+                                                <ul class="nav nav-tabs round-btns-parent" role="tablist">
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link btn active" id="tab-1-btn" data-bs-toggle="tab" data-bs-target="#goal-content" type="button" role="tab" aria-controls="goal-content" aria-selected="true">Goal</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link btn" id="tab-2-btn" data-bs-toggle="tab" data-bs-target="#assist-content" type="button" role="tab" aria-controls="assist-content" aria-selected="true">Assist</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
 
-                                            <!-- Row 1 -->
-                                            <tr class="tr">
-                                                <td class="left-part">
-                                                    <div class="xi-card">
-                                                        <div class="xi-img-div">
-                                                            <img src="images/xi-img-1.png" alt="XI Image" class="img-fluid xi-img">
-                                                            <div class="sm-img-div">
-                                                                <img src="images/xi-sm-img-1.png" alt="XI small Image" class="img-fluid-sm-img">
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade show active" id="goal-content" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                                    <!-- Row 1 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-1.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-1.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-div">
+                                                                <span class="name">R. Lewandowski</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
+
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="info-div">
-                                                        <span class="name">R. Lewandowski</span>
-                                                        <span class="position-row">
-                                                            <span class="position">Central Midfield</span>
-                                                                <span class="sm-circle"></span>
-                                                                <div class="flags">
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
-                                                                </div>
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+                                                    
+                                                    <!-- Row 2 -->                                      
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-2.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-2.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                            <span class="sm-circle"></span>
-                                                            <span class="age">Age 19</span>
-                                                        </span>
-                                                    </div>
-                                                </td>
+                                                            <div class="info-div">
+                                                                <span class="name">K. Benzema Nurdiansyah</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-3.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
 
-                                                <td class="right-part">
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">12</span>
-                                                    </div>
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
 
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">8</span>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            
-                                            <!-- Row 2 -->                                      
-                                            <tr class="tr">
-                                                <td class="left-part">
-                                                    <div class="xi-card">
-                                                        <div class="xi-img-div">
-                                                            <img src="images/xi-img-2.png" alt="XI Image" class="img-fluid xi-img">
-                                                            <div class="sm-img-div">
-                                                                <img src="images/xi-sm-img-2.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="info-div">
-                                                        <span class="name">K. Benzema Nurdiansyah</span>
-                                                        <span class="position-row">
-                                                            <span class="position">Central Midfield</span>
-                                                                <span class="sm-circle"></span>
-                                                                <div class="flags">
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-3.png" alt="Flag 1" class="flag-img img-fluid">
-                                                                </div>
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+
+                                                    <!-- Row 3 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-3.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-3.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                            <span class="sm-circle"></span>
-                                                            <span class="age">Age 19</span>
-                                                        </span>
-                                                    </div>
-                                                </td>
+                                                            <div class="info-div">
+                                                                <span class="name">S. Haller</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
 
-                                                <td class="right-part">
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">12</span>
-                                                    </div>
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
 
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">8</span>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <!-- Row 3 -->
-                                            <tr class="tr">
-                                                <td class="left-part">
-                                                    <div class="xi-card">
-                                                        <div class="xi-img-div">
-                                                            <img src="images/xi-img-3.png" alt="XI Image" class="img-fluid xi-img">
-                                                            <div class="sm-img-div">
-                                                                <img src="images/xi-sm-img-3.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="info-div">
-                                                        <span class="name">S. Haller</span>
-                                                        <span class="position-row">
-                                                            <span class="position">Central Midfield</span>
-                                                                <span class="sm-circle"></span>
-                                                                <div class="flags">
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
-                                                                </div>
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+
+                                                    <!-- Row 4 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-4.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-4.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                            <span class="sm-circle"></span>
-                                                            <span class="age">Age 19</span>
-                                                        </span>
-                                                    </div>
-                                                </td>
+                                                            <div class="info-div">
+                                                                <span class="name">M. Salah</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-5.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
 
-                                                <td class="right-part">
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">12</span>
-                                                    </div>
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
 
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">8</span>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <!-- Row 4 -->
-                                            <tr class="tr">
-                                                <td class="left-part">
-                                                    <div class="xi-card">
-                                                        <div class="xi-img-div">
-                                                            <img src="images/xi-img-4.png" alt="XI Image" class="img-fluid xi-img">
-                                                            <div class="sm-img-div">
-                                                                <img src="images/xi-sm-img-4.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="info-div">
-                                                        <span class="name">M. Salah</span>
-                                                        <span class="position-row">
-                                                            <span class="position">Central Midfield</span>
-                                                                <span class="sm-circle"></span>
-                                                                <div class="flags">
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-5.png" alt="Flag 1" class="flag-img img-fluid">
+
+                                                    <!-- Row 5 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-5.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-3.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                            <span class="sm-circle"></span>
-                                                            <span class="age">Age 19</span>
-                                                        </span>
-                                                    </div>
-                                                </td>
+                                                            <div class="info-div">
+                                                                <span class="name">C. Nkunku</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
 
-                                                <td class="right-part">
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">12</span>
-                                                    </div>
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
 
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">8</span>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <!-- Row 5 -->
-                                            <tr class="tr">
-                                                <td class="left-part">
-                                                    <div class="xi-card">
-                                                        <div class="xi-img-div">
-                                                            <img src="images/xi-img-5.png" alt="XI Image" class="img-fluid xi-img">
-                                                            <div class="sm-img-div">
-                                                                <img src="images/xi-sm-img-3.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="info-div">
-                                                        <span class="name">C. Nkunku</span>
-                                                        <span class="position-row">
-                                                            <span class="position">Central Midfield</span>
-                                                                <span class="sm-circle"></span>
-                                                                <div class="flags">
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
-                                                                </div>
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+
+                                                    <!-- Row 6 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-6.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-6.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                            <span class="sm-circle"></span>
-                                                            <span class="age">Age 19</span>
-                                                        </span>
-                                                    </div>
-                                                </td>
+                                                            <div class="info-div">
+                                                                <span class="name">L. Sane</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
 
-                                                <td class="right-part">
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">12</span>
-                                                    </div>
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
 
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">8</span>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <!-- Row 6 -->
-                                            <tr class="tr">
-                                                <td class="left-part">
-                                                    <div class="xi-card">
-                                                        <div class="xi-img-div">
-                                                            <img src="images/xi-img-6.png" alt="XI Image" class="img-fluid xi-img">
-                                                            <div class="sm-img-div">
-                                                                <img src="images/xi-sm-img-6.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="info-div">
-                                                        <span class="name">L. Sane</span>
-                                                        <span class="position-row">
-                                                            <span class="position">Central Midfield</span>
-                                                                <span class="sm-circle"></span>
-                                                                <div class="flags">
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
-                                                                </div>
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+
+                                                    <!-- Row 7 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-7.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-7.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                            <span class="sm-circle"></span>
-                                                            <span class="age">Age 19</span>
-                                                        </span>
-                                                    </div>
-                                                </td>
+                                                            <div class="info-div">
+                                                                <span class="name">K. Mbappe</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-5.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-4.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
 
-                                                <td class="right-part">
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">12</span>
-                                                    </div>
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
 
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">8</span>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <!-- Row 7 -->
-                                            <tr class="tr">
-                                                <td class="left-part">
-                                                    <div class="xi-card">
-                                                        <div class="xi-img-div">
-                                                            <img src="images/xi-img-7.png" alt="XI Image" class="img-fluid xi-img">
-                                                            <div class="sm-img-div">
-                                                                <img src="images/xi-sm-img-7.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="info-div">
-                                                        <span class="name">K. Mbappe</span>
-                                                        <span class="position-row">
-                                                            <span class="position">Central Midfield</span>
-                                                                <span class="sm-circle"></span>
-                                                                <div class="flags">
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-5.png" alt="Flag 1" class="flag-img img-fluid">
-                                                                </div>
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-4.png" alt="Flag 2" class="flag-img img-fluid">
+
+                                                    <!-- Row 8 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-8.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-8.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                            <span class="sm-circle"></span>
-                                                            <span class="age">Age 19</span>
-                                                        </span>
-                                                    </div>
-                                                </td>
+                                                            <div class="info-div">
+                                                                <span class="name">A. Wirtz</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-4.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-5.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
 
-                                                <td class="right-part">
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">12</span>
-                                                    </div>
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
 
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">8</span>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <!-- Row 8 -->
-                                            <tr class="tr">
-                                                <td class="left-part">
-                                                    <div class="xi-card">
-                                                        <div class="xi-img-div">
-                                                            <img src="images/xi-img-8.png" alt="XI Image" class="img-fluid xi-img">
-                                                            <div class="sm-img-div">
-                                                                <img src="images/xi-sm-img-8.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="info-div">
-                                                        <span class="name">A. Wirtz</span>
-                                                        <span class="position-row">
-                                                            <span class="position">Central Midfield</span>
-                                                                <span class="sm-circle"></span>
-                                                                <div class="flags">
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-4.png" alt="Flag 1" class="flag-img img-fluid">
-                                                                </div>
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-5.png" alt="Flag 2" class="flag-img img-fluid">
+
+                                                    <!-- Row 9 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-2.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-2.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                            <span class="sm-circle"></span>
-                                                            <span class="age">Age 19</span>
-                                                        </span>
-                                                    </div>
-                                                </td>
+                                                            <div class="info-div">
+                                                                <span class="name">K. Benzema Nurdiansyah</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-3.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
 
-                                                <td class="right-part">
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">12</span>
-                                                    </div>
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
 
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">8</span>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <!-- Row 9 -->
-                                            <tr class="tr">
-                                                <td class="left-part">
-                                                    <div class="xi-card">
-                                                        <div class="xi-img-div">
-                                                            <img src="images/xi-img-2.png" alt="XI Image" class="img-fluid xi-img">
-                                                            <div class="sm-img-div">
-                                                                <img src="images/xi-sm-img-2.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="info-div">
-                                                        <span class="name">K. Benzema Nurdiansyah</span>
-                                                        <span class="position-row">
-                                                            <span class="position">Central Midfield</span>
-                                                                <span class="sm-circle"></span>
-                                                                <div class="flags">
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-3.png" alt="Flag 2" class="flag-img img-fluid">
+
+                                                    <!-- Row 10 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-4.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-4.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                            <span class="sm-circle"></span>
-                                                            <span class="age">Age 19</span>
-                                                        </span>
-                                                    </div>
-                                                </td>
+                                                            <div class="info-div">
+                                                                <span class="name">A. Herman</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
 
-                                                <td class="right-part">
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">12</span>
-                                                    </div>
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
 
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">8</span>
-                                                    </div>
-                                                </td>
-                                            </tr>
-
-                                            <!-- Row 10 -->
-                                            <tr class="tr">
-                                                <td class="left-part">
-                                                    <div class="xi-card">
-                                                        <div class="xi-img-div">
-                                                            <img src="images/xi-img-4.png" alt="XI Image" class="img-fluid xi-img">
-                                                            <div class="sm-img-div">
-                                                                <img src="images/xi-sm-img-4.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="info-div">
-                                                        <span class="name">A. Herman</span>
-                                                        <span class="position-row">
-                                                            <span class="position">Central Midfield</span>
-                                                                <span class="sm-circle"></span>
-                                                                <div class="flags">
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
-                                                                </div>
-                                                                <div class="flag-img-div">
-                                                                    <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+                                                </div>
+
+                                                <div class="tab-pane fade" id="assist-content" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                                                    <!-- Row 1 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-1.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-1.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                            <span class="sm-circle"></span>
-                                                            <span class="age">Age 19</span>
-                                                        </span>
-                                                    </div>
-                                                </td>
+                                                            <div class="info-div">
+                                                                <span class="name">R. Lewandowski</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
 
-                                                <td class="right-part">
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">12</span>
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
+
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <!-- Row 2 -->                                      
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-2.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-2.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-div">
+                                                                <span class="name">K. Benzema Nurdiansyah</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-3.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
+
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
+                                                            </div>
+                                                        </div>
                                                     </div>
 
-                                                    <div class="icon-parent">
-                                                        <span class="sm-icon-parent">
-                                                            <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
-                                                        </span>
-                                                        <span class="icon-txt">8</span>
+                                                    <!-- Row 3 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-3.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-3.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-div">
+                                                                <span class="name">S. Haller</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
+
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </td>
-                                            </tr>
-                                        </table>
+
+                                                    <!-- Row 4 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-4.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-4.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-div">
+                                                                <span class="name">M. Salah</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-5.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
+
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Row 5 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-5.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-3.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-div">
+                                                                <span class="name">C. Nkunku</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
+
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Row 6 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-6.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-6.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-div">
+                                                                <span class="name">L. Sane</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
+
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Row 7 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-7.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-7.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-div">
+                                                                <span class="name">K. Mbappe</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-5.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-4.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
+
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Row 8 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-8.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-8.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-div">
+                                                                <span class="name">A. Wirtz</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-4.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-5.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
+
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Row 9 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-2.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-2.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-div">
+                                                                <span class="name">K. Benzema Nurdiansyah</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-3.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
+
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Row 10 -->
+                                                    <div class="tr">
+                                                        <div class="left-part">
+                                                            <div class="xi-card">
+                                                                <div class="xi-img-div">
+                                                                    <img src="images/xi-img-4.png" alt="XI Image" class="img-fluid xi-img">
+                                                                    <div class="sm-img-div">
+                                                                        <img src="images/xi-sm-img-4.png" alt="XI small Image" class="img-fluid-sm-img">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-div">
+                                                                <span class="name">A. Herman</span>
+                                                                <span class="position-row">
+                                                                    <span class="position">Central Midfield</span>
+                                                                        <span class="sm-circle"></span>
+                                                                        <div class="flags">
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-1.png" alt="Flag 1" class="flag-img img-fluid">
+                                                                        </div>
+                                                                        <div class="flag-img-div">
+                                                                            <img src="images/flag-2.png" alt="Flag 2" class="flag-img img-fluid">
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="sm-circle"></span>
+                                                                    <span class="age">Age 19</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="right-part">
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/football-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">12</span>
+                                                            </div>
+
+                                                            <div class="icon-parent">
+                                                                <span class="sm-icon-parent">
+                                                                    <img src="images/shoes-icon.png" alt="Football Icon" class="sm-icon img-fluid">
+                                                                </span>
+                                                                <span class="icon-txt">8</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
