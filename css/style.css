@@ -1804,6 +1804,15 @@
         font-size: 16px;
     }
 
+    /* Highest Value Table */
+    .highest-value-table {
+        width: fit-content;
+    }
+
+    .highest-value-table .tr {
+        min-width: 460px;
+    }
+
     /* Enjoying Card Styling */
     .enjoying-card .para {
         font-size: 15px;
@@ -1812,6 +1821,15 @@
     .enjoying-card .link {
         padding: 14px 26px;
         font-size: 18px;
+    }
+
+    /* Standing Tables */
+    .standing-right-table {
+        width: fit-content;
+    }
+
+    .standing-right-table .tr {
+        min-width: 480px;
     }
 
     /* Footer Styling */
