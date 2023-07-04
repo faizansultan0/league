@@ -14,6 +14,9 @@
     background-color: #E5E5E5;
 }
 
+.img-fluid {
+    max-height: 100%;
+}
 /* Global Section Head Styling */
 .section-head .top-div {
     display: flex;
@@ -1706,6 +1709,10 @@
 }
 
 @media screen and (max-width: 576px) {
+    /* Global Styling */
+    .overflow-b-sm-scroll {
+        overflow: scroll;
+    }
     /* Top Cards */
     .top-cards::before {
         display: none;
@@ -2113,6 +2120,12 @@
     .enjoying-card .link {
         font-size: 14px;
         padding: 10px 22px;
+    }
+
+    /* Last League Table */
+    .last-league-table > .tr {
+        gap: 10px;
+        justify-content: start;
     }
 
     /* Footer Syling */
