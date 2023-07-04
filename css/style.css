@@ -116,8 +116,8 @@
     padding: 10px 12px 0;
 }
 
-.header .nav-link {
-    padding: 0 0 28px!important;
+.header .navbar .nav-link {
+    padding: 0 0 28px;
     border-bottom: 3px solid transparent;
     color: #4D5F7A;
     font-size: 14px;
@@ -127,15 +127,15 @@
 }
 
 
-.header .nav-link:hover {
-    color: #8b42f2!important;;
+.header .navbar .nav-link:hover {
+    color: #8b42f2;
     border-color:#8B42F2;
     font-weight: 700;
 }
 
 
-.header .active {
-    color: #8B42F2!important;
+.header .navbar .active {
+    color: #8B42F2;
     border-bottom: 3px solid #8B42F2;
     font-weight: 700;
 }
@@ -421,9 +421,6 @@
 }
 
 .latest-table .round-btns-parent {
-    display: flex;
-    justify-content: space-between;
-    gap: 0;
     border: 1px solid rgba(238, 240, 243, 1);
     border-radius: 999px;
 }
@@ -550,7 +547,7 @@
 }
 
 .latest-table .rpc {
-    min-width: 90px;
+    min-width: 60px;
     text-align: center;
 }
 
@@ -629,6 +626,10 @@
 
 .player-card-1 .left-img-div {
     padding-top: 17px;
+}
+
+.player-card-1 .left-img {
+    max-height: 200px;
 }
 
 .player-card .right-logo {
@@ -962,7 +963,7 @@
 
 .fixtures-table .pagination-div {
     background-color: rgba(250, 250, 250, 0.8);
-    width: 1100px;
+    width: 1094px;
 }
 
 .fixtures-table .pagination-number-parent {
@@ -973,6 +974,8 @@
 .fixtures-table .pagination-number {
     width: 34px;
     height: 32px;
+    color: black;
+    text-decoration: none;
     border: 1px solid #EEF0F3;
     font-size: 14px;
     font-weight: 500;
@@ -989,12 +992,12 @@
 }
 
 
-.live-img-div {
-    background-color: rgba(86, 182, 148, 0.1)!important;
+.fixtures-table .live-img-div {
+    background-color: rgba(86, 182, 148, 0.1);
 }
 
-.live-name {
-    font-weight: 700!important;
+.fixtures-table .live-name {
+    font-weight: 700;
 }
 
 .fixtures-table .tr:nth-child(2) {
@@ -1105,7 +1108,7 @@
 }
 
 .standings-table .right-part {
-    gap: 8px!important;
+    gap: 8px;
 }
 
 .standings-table .points {
@@ -1350,6 +1353,7 @@
 }
 
 .last-league-table .video {
+    width: 255px;
     border-radius: 6.3px;
 }
 
@@ -1404,7 +1408,7 @@
 
 
 .ll-card {
-    min-width: 125.5px;
+    min-width: 125px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     padding: 12px;
@@ -1475,14 +1479,14 @@
 }
 
 /* Media Queries with Max-Width */
-@media screen and (max-width: 1199.9px) {
+@media screen and (max-width: 1200px) {
     /* Header */
     .header .logo-img {
         width: 180px;
     }
 
-    .header .nav-link {
-        padding-bottom: 26px!important;
+    .header .navbar .nav-link {
+        padding-bottom: 26px;
     }
 
     /* Latest Table Styling */
@@ -1508,7 +1512,7 @@
     }
     
     .latest-table .right-part {
-        gap: 24px;
+        gap: 8px;
     }
 
     .valuable-players-table .rpc-val {
@@ -1549,13 +1553,30 @@
         padding-right: 74px;
     }
 
+    /* Last League Table Cards */
+    .last-league-table > tbody > .tr {
+        min-width: 100%;
+    }
+
+    .last-league-table .top-card {
+        width: 200px;
+    }
+
+    .last-league-table .video {
+        width: 200px;
+    }
+
+    .ll-card {
+        min-width: 100px;
+    }
+
     /* Footer Styling */
     .footer .f-links-ul {
         font-size: 13px;
     }
 }
 
-@media screen and (max-width: 991.9px){
+@media screen and (max-width: 991px){
     /* Global Styling */
 
     .b-lg-mb-20 {
@@ -1586,8 +1607,8 @@
         width: 164px;
     }
 
-    .header .nav-link {
-        padding-bottom: 20px!important;
+    .header .navbar .nav-link {
+        padding-bottom: 20px;
         width: 100%;
     }
 
@@ -1651,8 +1672,8 @@
         width: 150px;
     }
 
-    .header .nav-link {
-        padding-bottom: 14px!important;
+    .header .navbar .nav-link {
+        padding-bottom: 14px;
     }
     .header .nav-link:hover, .header .active {
         border-bottom: 2px solid;
@@ -1939,8 +1960,8 @@
     }
 
     /* Header */
-    .header .nav-link {
-        padding-bottom: 10px!important;
+    .header .navbar .nav-link {
+        padding-bottom: 10px;
     }
 
     .header button {
@@ -2097,7 +2118,7 @@
     }
 }
 
-@media screen and (min-width: 991.9px) {
+@media screen and (min-width: 991px) {
     .container {
         padding: 0;
     }
